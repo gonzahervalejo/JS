@@ -12,8 +12,8 @@ const nombreUsuario=prompt("Ingrese su Usuario");
 
 const clave=prompt("Ingrese su clave personal");
 
-if ((nombreUsuario == "gonzah")||(nombreUsuario == "Gonzah") && (clave == "gonzahervalejo")) {
-    
+if ((nombreUsuario == "gonzah" || nombreUsuario == "Gonzah") && clave == "gonzahervalejo") {
+   
     alert("Bienvenido GonzaH");
 }
 
