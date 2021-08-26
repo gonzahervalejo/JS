@@ -8,19 +8,36 @@
 
 // clase 2
 
-const nombreUsuario=prompt("Ingrese su Usuario");
+// const nombreUsuario=prompt("Ingrese su Usuario");
 
-const clave=prompt("Ingrese su clave personal");
+// const clave=prompt("Ingrese su clave personal");
 
-if ((nombreUsuario == "gonzah" || nombreUsuario == "Gonzah") && clave == "gonzahervalejo") {
+// if ((nombreUsuario == "gonzah" || nombreUsuario == "Gonzah") && clave == "gonzahervalejo") {
    
-    alert("Bienvenido GonzaH");
+//     alert("Bienvenido GonzaH");
+// }
+
+// else {
+
+//     alert ("Intruso");
+// }
+
+
+
+// clase 3
+
+// turnos
+
+for (let i = 1; i <=10; i++) {
+let ingresarNombre = (prompt("Igresar nombre"));
+console.log( "Tienes " +i+ " personas adelante " +ingresarNombre);
 }
 
-else {
+let i = false;
+do{
+    console.log("No hay mas turnos");
 
-    alert ("Intruso");
-}
+} while(i);
 
 
 
