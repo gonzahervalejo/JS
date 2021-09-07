@@ -43,24 +43,31 @@
 
 // clase 4
 
-let bienvenido = (prompt("Bienvenido, Ingrese su nombre"));
+let bienvenido = (prompt("Bienvenido, que producto desea? 1)soquete  2)Medias  3)Deportivas. Ingrese un numero"));
+
+function medias (bienvenido){
 
 
+if (bienvenido == 1) {
 
-function turno(){
+    alert ("Se añadio soquete");
+}
 
-    for (let i=1; i <=10; i++){
-        console.log(bienvenido  +i+ " personas adelante ");
-    }
+else if (bienvenido == 2) {
 
-    if (bienvenido ==""){
-        alert ("usted no ingreso su nombre")
-    }
-    
+    alert ("Se añadio Medias");
 
-   
+}
 
-  
+else if (bienvenido == 3) {
+
+    alert ("Se añadio Deportivas");
+}
+
+else {
+
+    alert ("No coincide");
+}
 }
 
 
