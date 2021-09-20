@@ -43,34 +43,64 @@
 
 // clase 4
 
-let bienvenido = (prompt("Bienvenido, que producto desea? 1)soquete  2)Medias  3)Deportivas. Ingrese un numero"));
+// let bienvenido = (prompt("Bienvenido, que producto desea? 1)soquete  2)Medias  3)Deportivas. Ingrese un numero"));
 
-function medias (bienvenido){
+// function medias (bienvenido){
 
 
-if (bienvenido == 1) {
+// if (bienvenido == 1) {
 
-    alert ("Se añadio soquete");
+//     alert ("Se añadio soquete");
+// }
+
+// else if (bienvenido == 2) {
+
+//     alert ("Se añadio Medias");
+
+// }
+
+// else if (bienvenido == 3) {
+
+//     alert ("Se añadio Deportivas");
+// }
+
+// else {
+
+//     alert ("No coincide");
+// }
+// }
+
+// clase 5 objetos
+
+
+class Medias {
+
+    calcular (nombre, precio) {
+    
+        this.nombre = nombre;
+        this.precio = precio;
+    
+    }
+    
+    getSaleInfo(){
+
+        return (this.nombre + "cuesta" + this.precio);
+    }
+     
+
 }
 
-else if (bienvenido == 2) {
+    const medias1 = new Medias ("soquete", 200);
+    const medias2 = new Medias ("deportivas", 250);
+    const medias3 = new Medias ("largas", 300);
 
-    alert ("Se añadio Medias");
+alert (medias1.getSaleInfo());
+alert (medias2.getSaleInfo());
+alert (medias3.getSaleInfo());
+    
 
-}
-
-else if (bienvenido == 3) {
-
-    alert ("Se añadio Deportivas");
-}
-
-else {
-
-    alert ("No coincide");
-}
-}
-
-
+    
+    
 
 
 
