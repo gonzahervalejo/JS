@@ -1,108 +1,23 @@
 
-// clase 1
 
-// const edad=parseInt(prompt("¿Eres mayor de edad? Ingrese su edad"));
-// alert("Mi edad es " + edad);
+const entradas = [{ nombre: "empanadas", precio: 90},
+{nombre: "calentitos", precio:300 }];
 
+const hamburguesas = [{nombre: "hamburguesa loca", precio: 800 },
+{ nombre: "hamburguesa porteña", precio: 850},
+{ nombre: "hamburguesa miloca", precio: 900}];
 
+const pizzas = [{nombre: "pizza margarita", precio:700},
+{nombre: "pizza de lechuga", precio:900},
+{nombre: "pizza doble muzzarella", precio:650}];
 
-// clase 2
-
-// const nombreUsuario=prompt("Ingrese su Usuario");
-
-// const clave=prompt("Ingrese su clave personal");
-
-// if ((nombreUsuario == "gonzah" || nombreUsuario == "Gonzah") && clave == "gonzahervalejo") {
-   
-//     alert("Bienvenido GonzaH");
-// }
-
-// else {
-
-//     alert ("Intruso");
-// }
+const postres = [{nombre: "frutillas con crema", precio: 500},
+{nombre: "flan", precio: 500}];
 
 
 
-// clase 3
-
-// turnos
-
-// for (let i = 1; i <=10; i++) {
-// let ingresarNombre = (prompt("Igresar nombre"));
-// console.log( "Tienes " +i+ " personas adelante " +ingresarNombre);
-// }
-
-// let i = false;
-// do{
-//     console.log("No hay mas turnos");
-
-// } 
-
-
-
-// clase 4
-
-// let bienvenido = (prompt("Bienvenido, que producto desea? 1)soquete  2)Medias  3)Deportivas. Ingrese un numero"));
-
-// function medias (bienvenido){
-
-
-// if (bienvenido == 1) {
-
-//     alert ("Se añadio soquete");
-// }
-
-// else if (bienvenido == 2) {
-
-//     alert ("Se añadio Medias");
-
-// }
-
-// else if (bienvenido == 3) {
-
-//     alert ("Se añadio Deportivas");
-// }
-
-// else {
-
-//     alert ("No coincide");
-// }
-// }
-
-// clase 5 objetos
-
-
-class Medias {
-
-    calcular (nombre, precio) {
-    
-        this.nombre = nombre;
-        this.precio = precio;
-    
-    }
-    
-    getSaleInfo(){
-
-        return (this.nombre + "cuesta" + this.precio);
-    }
-     
-
-}
-
-    const medias1 = new Medias ("soquete", 200);
-    const medias2 = new Medias ("deportivas", 250);
-    const medias3 = new Medias ("largas", 300);
-
-alert (medias1.getSaleInfo());
-alert (medias2.getSaleInfo());
-alert (medias3.getSaleInfo());
-    
-
-    
-    
-
-
+const menu = [entradas, hamburguesas, pizzas, postres];
+console.log(menu);
 
 
 
