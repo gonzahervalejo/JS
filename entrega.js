@@ -21,5 +21,9 @@ console.log(menu);
 
 
 
+hamburguesas.forEach( producto =>  {producto.nombre
+
+console.log(producto.nombre) } );
+
 
 
